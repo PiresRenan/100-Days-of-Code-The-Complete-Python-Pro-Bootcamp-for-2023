@@ -20,8 +20,8 @@ class Book (db.Model):
     def __repr__(self):
         return f'<Book {self.title}>'
 
-# with app.app_context():
-#     db.create_all()
+with app.app_context():
+    db.create_all()
 
 # CREATE NEW RECORD 
 # new_book = Book(id=1, title="Harry Potter", author="J. K. Rowling", rating=9.3)

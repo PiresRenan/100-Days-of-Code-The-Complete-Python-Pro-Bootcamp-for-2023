@@ -13,8 +13,6 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument('start-maximized')
 
-
-
 class InstaFollower:
 
     def __init__(self, OPTIONS):
